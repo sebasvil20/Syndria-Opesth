@@ -18,13 +18,13 @@
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body>
+<body  data-spy="scroll" data-target=".main_nav" data-offset="80">
 
 <div class="super_container">
 
 	<!-- Header -->
 
-	<header class="header ">
+	<header class="header" >
 		<div class="container ">
 			<div class="row ">
 				<div class="col">
@@ -37,10 +37,10 @@
 						</div>
 						<nav class="main_nav">
 							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<li><a href="index.html">Inicio</a></li>
-								<li><a href="about.html">Sobre Nosotros</a></li>
-								<li><a href="menu.html">Nuestros Servicios</a></li>
-								<li><a href="contact.html">contacto</a></li>
+								<li><a href="#Inicio" >Inicio</a></li>
+								<li><a href="#NuestrosServicios">Nuestros Servicios</a></li>
+								<li><a href="#aboutus">Sobre Nosotros</a></li>
+								<li><a href="#contacto">contacto</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -79,8 +79,8 @@
 
 
 
-	<div class="home">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="imgs.png" data-speed=".1"></div>
+	<div class="home" id="Inicio">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="imgs/imgs.png" data-speed=".1"></div>
 		<div class="home_container">
 			<div class="container">
 				<div class="row">
@@ -101,6 +101,34 @@
 			</div>
 		</div>
 	</div>
+
+
+
+		<div class="intro" id="NuestrosServicios">
+			<div class="container">
+				<h1 class="mb-5">Lo que te ofrecemos</h1>
+				<div class="row">
+					<div class="col-lg-6 col-12">
+						<div class="intro_content">
+							<div class="intro_subtitle page_subtitle">Facebook Ads</div>
+							<div class="intro_title"><h2>Una de las plataformas mas grandes del momento y donde tu mensaje puede llegar a las personas correctas a tu disposicion</h2></div>
+						</div>
+							<div class="col-lg-6 col-12 intro_col">
+								<div class="intro_image mb-4"><img src="imgs/facebookads.gif"></div>
+							</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="intro_content">
+							<div class="intro_subtitle page_subtitle">Diseño web</div>
+							<div class="intro_title"><h2>Usamos internet todos los dias, tener una presencia en los buscadores es fundamental</h2></div>
+						</div>
+							<div class="col-lg-6 col-12 intro_col">
+								<div class="intro_image  mb-4"><img src="imgs/maquetacionweb.gif"></div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 
