@@ -886,3 +886,23 @@ section
 
 
 }
+
+.container-fluid{
+	margin-top: -150px;
+}
+
+
+#contenedorch{
+	height: 200px;
+	background-color: #4CCBFF!important;
+	width: 100%;
+	align-content: center!important;
+	justify-content: center!important;
+	align-items: center!important;
+	color: black;
+}
+
+
+.fa-star,.fa-star-half-alt{
+	color: #e5ff14!important;
+}
