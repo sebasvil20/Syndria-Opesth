@@ -697,6 +697,7 @@ section
 {
 	max-width: 100%;
 	margin-bottom: 120px;
+	height: 288px!important;
 }
 .intro_content
 {
@@ -717,6 +718,7 @@ section
 	padding-bottom: 10px;
 	text-align: center;
 }
+
 .intro_subtitle
 {
 	font-size: 40px;
@@ -893,13 +895,9 @@ section
 
 
 #contenedorch{
-	height: 200px;
-	background-color: #4CCBFF!important;
-	width: 100%;
-	align-content: center!important;
-	justify-content: center!important;
-	align-items: center!important;
-	color: black;
+	height: 20px!important;
+	background-color: #85b3c6!important;
+
 }
 
 
