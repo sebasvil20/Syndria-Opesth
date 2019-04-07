@@ -331,7 +331,7 @@ section
 }
 .logo a > div:last-child
 {
-	font-size: 15px;
+	font-size: 12px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: 0.680em;
@@ -619,24 +619,18 @@ section
 }
 .footer_logo_subtitle
 {
-	font-size: 19px;
+	font-size: 12.5px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: 0.680em;
 	line-height: 0.75;
 	margin-top: 17px;
 }
-.copyright
-{
-	font-size: 13px;
-	color: rgba(255,255,255,0.41);
-	line-height: 0.75;
-	margin-top: 22px;
-}
+
 .footer_about p
 {
-	color: #a5a4a4;
-	font-size: 17px;
+	color: #f1f1f1;
+	font-size: 24px;
 }
 .footer_contact ul li:not(:last-child)
 {
@@ -827,6 +821,13 @@ section
 
 
 @media (min-width:992px) and (max-width:1200px) {
+	.main_nav ul li a
+	{
+		font-size: 18px;
+		font-weight: 700;
+		color: #FFFFFF;
+		text-transform: uppercase;
+	}
 	.intro h1{
 		font-family: 'PT Sans Narrow', sans-serif;
 		margin-bottom: 40px!important;
