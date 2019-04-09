@@ -535,11 +535,6 @@ section
 }
 
 
-
-
-
-
-
 .home
 {
 	width: 100%;
@@ -680,9 +675,164 @@ section
 	color: #c8c3c3;
 }
 
+
+.selectede{
+  color: #111e2f!important;
+}
+
+#contenedor{
+  overflow: hidden;
+  height: 120vh;
+}
+
+
+.back-left{
+  background-color: #111e2f!important;
+  height: 300vh;
+  margin-top: -80vh;
+  width: 100vw;
+  margin-left: -65vw;
+  float: left;
+  transform: rotate(-55deg);
+  z-index: 20;
+  position: absolute;
+}
+
+.back-right{
+  background-color: #2980b9!important;
+  height: 120vh;
+  width: 100%;
+  margin-right: -3vw;
+  float: left!important;
+  position: absolute;
+}
+
+.middle{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+
+.rowchida{
+  width: 48vw!important;
+  height: 90vh;
+  margin-top: 10vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rowchidaperonomucho{
+  width: 48vw!important;
+  height: 90vh;
+  margin-top: 10vh;
+  align-items: center;
+  align-content: center;
+  justify-content: right;
+  text-align: center;
+  color:#111e2f!important;
+  overflow: hidden;
+}
+
+.rowchidaperonomucho h1{
+  margin-top: 10%;
+}
+.rowchidaperonomucho h3{
+  margin-top: 0%
+}
+.rowchidaperonomucho .h3notanchido{
+  margin-top: 10%;
+}
+
+
+
+.h1chido{
+  z-index: 50;
+  color:#2980b9;
+}
+
+
+.card{
+  cursor: pointer;
+  width: 200px;
+  height: 300px;
+  z-index: 50;
+  margin-top: 50%;
+  background-color: #111e2f!important;
+  margin-left: 30%;
+  transform: rotate(0deg);
+}
+
+.front,.back{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   backface-visibility: hidden;
+   position: absolute;
+   transition: transform .4s linear;
+}
+
+.front img{
+  height: 100%;
+  width: 100%;
+}
+
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.back{
+  background-color: #2980b9!important;
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.back-content{
+  color:#111e2f;
+  text-align: center;
+  width: 100%;
+}
+
+.sm{
+  margin:20px 0;
+}
+
+.sm a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color:#111e2f;
+  font-size: 18px;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.sm a:hover{
+  background-color:#111e2f;
+  color: white;
+}
+
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+
+
+
 .intro h1{
 	font-family: 'PT Sans Narrow', sans-serif;
 }
+
+
 
 .intro
 {
@@ -900,9 +1050,6 @@ section
 
 }
 
-.container-fluid{
-	margin-top: -150px;
-}
 
 
 #contenedorch{

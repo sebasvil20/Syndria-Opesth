@@ -535,11 +535,6 @@ section
 }
 
 
-
-
-
-
-
 .home
 {
 	width: 100%;
@@ -679,6 +674,122 @@ section
 .footer_contact_text a:hover{
 	color: #c8c3c3;
 }
+
+#contenedor{
+  width: 1500px!important;
+  height: 120vh!important;
+  overflow: hidden;
+  margin-left: -100px!important;
+  margin-top: -100px!important;
+}
+
+.selectede{
+  color: #111e2f!important;
+}
+
+.back-left{
+  background-color: #111e2f!important;
+  height: 2700px;
+  width: 100%;
+  margin-top: -1150px;
+  margin-left: -1200px;
+    transform: rotate(-45deg);
+  z-index: -10;
+  float: left;
+    display: flex;
+}
+
+.back-right{
+  background-color: #9289E0!important;
+  height: 180vh;
+  width: 100%;
+  z-index: -20;
+  margin-top: -1500px;
+  float: right;
+  display: flex;
+}
+
+.cajas{
+  width: 250px!important;
+  height: 300px!important;
+  margin-top: 350px!important;
+  margin-left: -150px!important;
+  z-index: 20;
+  display: flex;
+  float: left;
+  border-radius: 5%;
+  overflow: visible;
+  border: 2px solid white;
+}
+
+.cajas h3,.cajas h2{
+  color: white;
+}
+
+
+.cajas img{
+  width:50%;
+  margin-top: 5px;
+}
+
+.cajamayorboton button{
+  background-color: #9289E0!important;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  margin-left: 20%;
+  margin-top: 5%;
+  border-radius: 5%;
+  transition-property: all;
+  transition-duration: .2s;
+}
+
+
+.cajamayorboton button p{
+  color: #111e2f!important;
+  font-size: 160%!important;
+  width: 100%;
+  align-self: center;
+}
+.cajamayorboton button p i{
+  color: #111e2f!important;
+  font-size: 80%!important;
+  align-self: center;
+}
+
+.cajamayorboton button:hover{
+  background-color: #7069a8!important;
+}
+
+
+
+.cajahiddern{
+  width: 300px !important;
+  height: 200px!important;
+  margin-top: 400px;
+  margin-left: 450px;
+  z-index: 50;
+  visibility: hidden;
+  border-radius: 5%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+
+.cajahiddern p{
+  color: white!important;
+  font-size: 150%;
+
+}
+
+
+
 
 .intro h1{
 	font-family: 'PT Sans Narrow', sans-serif;
