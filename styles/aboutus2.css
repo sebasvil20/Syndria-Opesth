@@ -844,10 +844,11 @@ section
 }
 
 
-
-
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
 /* --------------------------Media queryes -------------------------- */
-
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
 @media (max-width:400px) {
 	.logo a > div:first-child
 	{
@@ -867,8 +868,15 @@ section
 }
 
 
-@media (max-width:500px) {
-
+@media (min-width:300px) and (max-width:450px) {
+	.footerchido{
+		justify-content: center!important;
+		text-align: center;
+	}
+	.footerchido2{
+		justify-content: center!important;
+		margin-left: 45px!important;
+	}
 
 
 	.back-left{
@@ -936,7 +944,8 @@ section
 		margin: 0;
 	  background-color: #111e2f!important;
 	  transform: rotate(0deg);
-		top: -10%;
+		margin-top: 10%!important;
+		margin: auto!important;
 	}
 
 
@@ -998,6 +1007,588 @@ section
 
 }
 
+
+
+
+@media (min-width: 450px) and (max-width:500px)  {
+	.footerchido{
+		justify-content: center!important;
+		text-align: center;
+	}
+	.footerchido2{
+		justify-content: center!important;
+		margin-left: 45px!important;
+	}
+
+
+	.back-left{
+	  background-color: #111e2f!important;
+	  height: 70vh;
+	  width: 120vw;
+		margin-left: 0;
+	  z-index: 20;
+		transform: rotate(0deg);
+		float: none;
+		margin-top: 90vh;
+		padding: 0;
+	}
+
+	.back-right{
+	  background-color: #2980b9!important;
+	  height: 90vh;
+	  width: 100vw;
+		float: none;
+	}
+
+	.middle{
+	  position: absolute;
+	  top:50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	.rowchida{
+	  width: 100vw!important;
+	  height: 90vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+		padding-top: 20%;
+		margin: 0;
+	}
+
+	.rowchidaperonomucho{
+	  width: 100vw!important;
+	  height: 100%;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+	  color:#111e2f!important;
+	  overflow: hidden;
+		top:0;
+		z-index: 99;
+		padding: 0;
+		margin: 0;
+	}
+
+	.rowchidaperonomucho .col-12{
+		margin-top: 15%;
+	}
+
+	.card{
+	  cursor: pointer;
+	  width: 180px;
+	  height: 280px;
+	  z-index: 50;
+		margin: 0;
+	  background-color: #111e2f!important;
+	  transform: rotate(0deg);
+		margin: auto;
+		margin-top: 10%;
+	}
+
+
+	.front,.back{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   backface-visibility: hidden;
+	   transition: transform .4s linear;
+	}
+
+
+	.front img{
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+	.back-content{
+		margin-top: 100%;
+	  color:#111e2f;
+	  text-align: center;
+	  width: 100%;
+		transition-property: all;
+		transition-duration: .2s;
+		transition-timing-function: linear;
+		background-color: #90b7d1;
+		justify-content: center;
+	}
+
+	.sm{
+	  margin:20px 0;
+	}
+
+	.sm a{
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  justify-content: center;
+	  align-items: center;
+	  color:#111e2f;
+	  font-size: 18px;
+	  transition: 0.4s;
+	  border-radius: 50%;
+	}
+
+	.sm a:hover{
+	  background-color:#111e2f;
+	  color: white;
+	}
+
+
+	.card:hover .back-content,.card:hover .back{
+			margin-top: 0;
+			background-color: #2980b9!important;
+	}
+
+
+
+}
+
+
+
+@media (min-width: 500px) and (max-width:700px) {
+	.footerchido{
+		justify-content: center!important;
+		text-align: center;
+	}
+	.footerchido2{
+		justify-content: center!important;
+		margin-left: 45px!important;
+	}
+
+
+	.back-left{
+	  background-color: #111e2f!important;
+	  height: 70vh;
+	  width: 120vw;
+		margin-left: 0;
+	  z-index: 20;
+		transform: rotate(0deg);
+		float: none;
+		margin-top: 90vh;
+		padding: 0;
+	}
+
+	.back-right{
+	  background-color: #2980b9!important;
+	  height: 90vh;
+	  width: 100vw;
+		float: none;
+	}
+
+	.middle{
+	  position: absolute;
+	  top:50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	.rowchida{
+	  width: 100vw!important;
+	  height: 90vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+		padding-top: 20%;
+		margin: 0;
+	}
+
+	.rowchidaperonomucho{
+	  width: 100vw!important;
+	  height: 100%;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+	  color:#111e2f!important;
+	  overflow: hidden;
+		top:0;
+		z-index: 99;
+		padding: 0;
+		margin: 0;
+	}
+
+	.rowchidaperonomucho .col-12{
+		margin-top: 15%;
+	}
+
+	.card{
+	  cursor: pointer;
+	  width: 200px;
+	  height: 300px;
+	  z-index: 50;
+		margin: 0;
+	  background-color: #111e2f!important;
+	  transform: rotate(0deg);
+		margin-top: 10%;
+		margin: auto;
+		left:0;
+	}
+
+
+	.front,.back{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   backface-visibility: hidden;
+	   transition: transform .4s linear;
+	}
+
+
+	.front img{
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+	.back-content{
+		margin-top: 90%;
+	  color:#111e2f;
+	  text-align: center;
+	  width: 100%;
+		transition-property: all;
+		transition-duration: .2s;
+		transition-timing-function: linear;
+		background-color: #90b7d1;
+		justify-content: center;
+	}
+
+	.sm{
+	  margin:20px 0;
+	}
+
+	.sm a{
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  justify-content: center;
+	  align-items: center;
+	  color:#111e2f;
+	  font-size: 18px;
+	  transition: 0.4s;
+	  border-radius: 50%;
+	}
+
+	.sm a:hover{
+	  background-color:#111e2f;
+	  color: white;
+	}
+
+
+	.card:hover .back-content,.card:hover .back{
+			margin-top: 0;
+			background-color: #2980b9!important;
+	}
+
+
+
+}
+
+
+
+@media (min-width: 700px) and (max-width:768px) {
+	.footerchido{
+		justify-content: center!important;
+		text-align: center;
+	}
+	.footerchido2{
+		justify-content: center!important;
+		margin-left: 45px!important;
+	}
+
+
+	.back-left{
+	  background-color: #111e2f!important;
+	  height: 70vh;
+	  width: 120vw;
+		margin-left: 0;
+	  z-index: 20;
+		transform: rotate(0deg);
+		float: none;
+		margin-top: 90vh;
+		padding: 0;
+	}
+
+	.back-right{
+	  background-color: #2980b9!important;
+	  height: 90vh;
+	  width: 100vw;
+		float: none;
+	}
+
+	.middle{
+	  position: absolute;
+	  top:50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	.rowchida{
+	  width: 100vw!important;
+	  height: 90vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+		padding-top: 20%;
+		margin: 0;
+	}
+
+	.rowchidaperonomucho{
+	  width: 100vw!important;
+	  height: 100%;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+	  color:#111e2f!important;
+	  overflow: hidden;
+		top:0;
+		z-index: 99;
+		padding: 0;
+		margin: 0;
+	}
+
+	.rowchidaperonomucho .col-12{
+		margin-top: 15%;
+	}
+
+	.card{
+	  cursor: pointer;
+	  width: 250px;
+	  height: 350px;
+	  z-index: 50;
+		margin: 0;
+	  background-color: #111e2f!important;
+	  transform: rotate(0deg);
+		margin-top: 10%;
+		margin: auto;
+		left:0;
+	}
+
+
+	.front,.back{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   backface-visibility: hidden;
+	   transition: transform .4s linear;
+	}
+
+
+	.front img{
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+	.back-content{
+		margin-top: 83%;
+	  color:#111e2f;
+	  text-align: center;
+	  width: 100%;
+		transition-property: all;
+		transition-duration: .2s;
+		transition-timing-function: linear;
+		background-color: #90b7d1;
+		justify-content: center;
+	}
+
+	.sm{
+	  margin:20px 0;
+	}
+
+	.sm a{
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  justify-content: center;
+	  align-items: center;
+	  color:#111e2f;
+	  font-size: 18px;
+	  transition: 0.4s;
+	  border-radius: 50%;
+	}
+
+	.sm a:hover{
+	  background-color:#111e2f;
+	  color: white;
+	}
+
+
+	.card:hover .back-content,.card:hover .back{
+			margin-top: 0;
+			background-color: #2980b9!important;
+	}
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width:900px) {
+
+	.back-left{
+	  background-color: #111e2f!important;
+	  height: 300vh;
+	  margin-top: -90vh;
+	  width: 100vw;
+	  margin-left: -65vw;
+	  float: left;
+	  transform: rotate(-40deg);
+	  z-index: 20;
+	  position: absolute;
+	}
+
+	.back-right{
+	  background-color: #2980b9!important;
+	  height: 120vh;
+	  width: 100%;
+	  margin-right: -3vw;
+	  float: left!important;
+	  position: absolute;
+	}
+
+
+
+
+	.middle{
+	  position: absolute;
+	  top:50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	.rowchida{
+	  width: 20vw!important;
+	  height: 90vh;
+	  margin-top: 10vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.rowchidaperonomucho{
+	  width: 57vw!important;
+	  height: 90vh;
+	  margin-top: 10vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: right;
+	  text-align: center;
+	  color:#111e2f!important;
+	  overflow: hidden;
+	}
+
+	.rowchidaperonomucho h1{
+	  margin-top: 10%;
+	}
+	.rowchidaperonomucho h3{
+	  margin-top: 0%;
+
+	}
+
+
+
+
+
+
+	.rowchidaperonomucho .h3notanchido{
+	  margin-top: 10%;
+	}
+
+
+
+	.h1chido{
+	  z-index: 50;
+	  color:#2980b9;
+	}
+
+
+	.card{
+	  cursor: pointer;
+	  width: 160px;
+	  height: 260px;
+	  z-index: 50;
+	  margin-top: 50%;
+	  background-color: #111e2f!important;
+	  margin: auto;
+	  transform: rotate(0deg);
+	}
+
+	.principal{
+		margin-top: 1200%;
+		margin-left:
+	}
+
+	.front,.back{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   backface-visibility: hidden;
+	   position: absolute;
+	   transition: transform .4s linear;
+	}
+
+	.front img{
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+	.back-content{
+	  color:#111e2f;
+	  text-align: center;
+	  width: 100%;
+		margin-top: 90%;
+		transition-property: all;
+		transition-duration: .2s;
+		transition-timing-function: linear;
+		background-color: #90b7d1;
+	}
+
+
+	.sm{
+	  margin:20px 0;
+	}
+
+	.sm a{
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  justify-content: center;
+	  align-items: center;
+	  color:#111e2f;
+	  font-size: 18px;
+	  transition: 0.4s;
+	  border-radius: 50%;
+	}
+
+	.sm a:hover{
+	  background-color:#111e2f;
+	  color: white;
+	}
+
+
+	.card:hover .back-content,.card:hover .back{
+			margin-top: 0;
+			background-color: #2980b9!important;
+	}
+
+
+
+}
 
 
 @media (min-width:992px) and (max-width:1200px) {
