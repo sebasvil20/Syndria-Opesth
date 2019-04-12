@@ -1470,7 +1470,7 @@ section
 
 
 	.rowchida{
-	  width: 20vw!important;
+	  width: 40vw!important;
 	  height: 90vh;
 	  margin-top: 10vh;
 	  align-items: center;
@@ -1498,17 +1498,9 @@ section
 	  margin-top: 0%;
 
 	}
-
-
-
-
-
-
 	.rowchidaperonomucho .h3notanchido{
 	  margin-top: 10%;
 	}
-
-
 
 	.h1chido{
 	  z-index: 50;
@@ -1518,18 +1510,14 @@ section
 
 	.card{
 	  cursor: pointer;
-	  width: 160px;
-	  height: 260px;
+	  width: 150px;
+	  height: 250px;
 	  z-index: 50;
-	  margin-top: 50%;
+	  margin-top: 120%!important;
 	  background-color: #111e2f!important;
 	  margin: auto;
+		margin-left: 4%;
 	  transform: rotate(0deg);
-	}
-
-	.principal{
-		margin-top: 1200%;
-		margin-left:
 	}
 
 	.front,.back{
@@ -1551,7 +1539,7 @@ section
 	  color:#111e2f;
 	  text-align: center;
 	  width: 100%;
-		margin-top: 90%;
+		margin-top: 110%;
 		transition-property: all;
 		transition-duration: .2s;
 		transition-timing-function: linear;
