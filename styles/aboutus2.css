@@ -945,7 +945,8 @@ section
 	  background-color: #111e2f!important;
 	  transform: rotate(0deg);
 		margin-top: 10%!important;
-		margin: auto!important;
+		margin: auto;
+
 	}
 
 
@@ -1435,7 +1436,7 @@ section
 
 
 
-@media (min-width: 768px) and (max-width:900px) {
+@media (min-width: 768px) and (max-width:1000px) {
 
 	.back-left{
 	  background-color: #111e2f!important;
@@ -1480,23 +1481,32 @@ section
 	}
 
 	.rowchidaperonomucho{
-	  width: 57vw!important;
+	  width: 65vw!important;
 	  height: 90vh;
 	  margin-top: 10vh;
 	  align-items: center;
 	  align-content: center;
 	  justify-content: right;
-	  text-align: center;
+	  text-align: right;
 	  color:#111e2f!important;
 	  overflow: hidden;
 	}
 
+
+		.rowchidaperonomucho{
+			position: relative;
+			width: 60%!important;
+			margin-left: 40%;
+			font-size: 15px!important;
+		}
+
 	.rowchidaperonomucho h1{
-	  margin-top: 10%;
+	  margin-top: 5%;
+		font-size: 30px!important;
 	}
 	.rowchidaperonomucho h3{
 	  margin-top: 0%;
-
+		font-size: 20px!important;
 	}
 	.rowchidaperonomucho .h3notanchido{
 	  margin-top: 10%;
@@ -1516,9 +1526,10 @@ section
 	  margin-top: 120%!important;
 	  background-color: #111e2f!important;
 	  margin: auto;
-		margin-left: 4%;
+		margin-left: 20%;
 	  transform: rotate(0deg);
 	}
+
 
 	.front,.back{
 	   width: 100%;
@@ -1574,6 +1585,301 @@ section
 			background-color: #2980b9!important;
 	}
 
+
+
+}
+
+
+
+@media (min-width: 1000px) and (max-width:1200px) {
+
+	.back-left{
+	  background-color: #111e2f!important;
+	  height: 300vh;
+	  margin-top: -90vh;
+	  width: 100vw;
+	  margin-left: -67vw;
+	  float: left;
+	  transform: rotate(-40deg);
+	  z-index: 20;
+	  position: absolute;
+	}
+
+	.back-right{
+	  background-color: #2980b9!important;
+	  height: 120vh;
+	  width: 100%;
+	  margin-right: -3vw;
+	  float: left!important;
+	  position: absolute;
+	}
+
+
+
+
+	.middle{
+	  position: absolute;
+	  top:50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	.rowchida{
+	  width: 40vw!important;
+	  height: 90vh;
+	  margin-top: 10vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.rowchidaperonomucho{
+	  width: 60vw!important;
+	  height: 90vh;
+	  margin-top: 10vh;
+	  align-items: center;
+	  align-content: center;
+	  text-align: center!important;
+	  color:#111e2f!important;
+	}
+
+	.rowchidaperonomucho h1{
+	  margin-top: 5%;
+	}
+	.rowchidaperonomucho h3{
+	  margin-top: 0%;
+	}
+	.rowchidaperonomucho .col-12{
+		position:	absolute!important;
+		width: 60%!important;
+		padding-right: 0!important;
+	}
+
+	.rowchidaperonomucho .h3notanchido{
+	  margin-top: 10%;
+	}
+
+	.h1chido{
+	  z-index: 50;
+	  color:#2980b9;
+	}
+
+
+	.card{
+	  cursor: pointer;
+	  width: 180px;
+	  height: 280px;
+	  z-index: 50;
+	  margin-top: 120%!important;
+	  background-color: #111e2f!important;
+	  margin: auto;
+		margin-left: 20%;
+	  transform: rotate(0deg);
+	}
+
+
+	.front,.back{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   backface-visibility: hidden;
+	   position: absolute;
+	   transition: transform .4s linear;
+	}
+
+	.front img{
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+	.back-content{
+	  color:#111e2f;
+	  text-align: center;
+	  width: 100%;
+		margin-top: 100%;
+		transition-property: all;
+		transition-duration: .2s;
+		transition-timing-function: linear;
+		background-color: #90b7d1;
+	}
+
+
+	.sm{
+	  margin:20px 0;
+	}
+
+	.sm a{
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  justify-content: center;
+	  align-items: center;
+	  color:#111e2f;
+	  font-size: 18px;
+	  transition: 0.4s;
+	  border-radius: 50%;
+	}
+
+	.sm a:hover{
+	  background-color:#111e2f;
+	  color: white;
+	}
+
+
+	.card:hover .back-content,.card:hover .back{
+			margin-top: 0;
+			background-color: #2980b9!important;
+	}
+
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width:1400px) {
+
+	.back-left{
+	  background-color: #111e2f!important;
+	  height: 300vh;
+	  margin-top: -90vh;
+	  width: 100vw;
+	  margin-left: -67vw;
+	  float: left;
+	  transform: rotate(-40deg);
+	  z-index: 20;
+	  position: absolute;
+	}
+
+	.back-right{
+	  background-color: #2980b9!important;
+	  height: 120vh;
+	  width: 100%;
+	  margin-right: -3vw;
+	  float: left!important;
+	  position: absolute;
+	}
+
+
+
+
+	.middle{
+	  position: absolute;
+	  top:50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	}
+
+
+	.rowchida{
+	  width: 40vw!important;
+	  height: 90vh;
+	  margin-top: 10vh;
+	  align-items: center;
+	  align-content: center;
+	  justify-content: center;
+	  text-align: center;
+	}
+
+	.rowchidaperonomucho{
+	  width: 60vw!important;
+	  height: 90vh;
+	  margin-top: 10vh;
+	  align-items: center;
+	  align-content: center;
+	  text-align: center!important;
+	  color:#111e2f!important;
+	}
+
+	.rowchidaperonomucho h1{
+	  margin-top: 5%;
+	}
+	.rowchidaperonomucho h3{
+	  margin-top: 0%;
+	}
+	.rowchidaperonomucho .col-12{
+		position:	absolute!important;
+		width: 60%!important;
+		padding-right: 0!important;
+	}
+
+	.rowchidaperonomucho .h3notanchido{
+	  margin-top: 10%;
+	}
+
+	.h1chido{
+	  z-index: 50;
+	  color:#2980b9;
+	}
+
+
+	.card{
+		  cursor: pointer;
+		  width: 190px;
+		  height: 290px;
+		  z-index: 50;
+		  margin-top: 50%;
+		  background-color: #111e2f!important;
+		  margin-left: 15%;
+		  transform: rotate(0deg);
+	}
+
+
+	.front,.back{
+	   width: 100%;
+	   height: 100%;
+	   overflow: hidden;
+	   backface-visibility: hidden;
+	   position: absolute;
+	   transition: transform .4s linear;
+	}
+
+	.front img{
+	  height: 100%;
+	  width: 100%;
+	}
+
+
+	.back-content{
+	  color:#111e2f;
+	  text-align: center;
+	  width: 100%;
+		margin-top: 93%;
+		transition-property: all;
+		transition-duration: .2s;
+		transition-timing-function: linear;
+		background-color: #90b7d1;
+	}
+
+
+	.sm{
+	  margin:20px 0;
+	}
+
+	.sm a{
+	  display: inline-flex;
+	  width: 40px;
+	  height: 40px;
+	  justify-content: center;
+	  align-items: center;
+	  color:#111e2f;
+	  font-size: 18px;
+	  transition: 0.4s;
+	  border-radius: 50%;
+	}
+
+	.sm a:hover{
+	  background-color:#111e2f;
+	  color: white;
+	}
+
+
+	.card:hover .back-content,.card:hover .back{
+			margin-top: 0;
+			background-color: #2980b9!important;
+	}
 
 
 }
